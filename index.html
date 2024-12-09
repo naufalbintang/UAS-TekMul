@@ -1,49 +1,444 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="output.css" />
     <title>TIBLAST</title>
   </head>
-  <body class="">
+  <body class="bg-kedua">
     <!-- navbar -->
     <nav
-      class="fixed w-full flex bg-pertama justify-between mx-auto px-6 text-white font-Kodchasan text-base"
+      class="fixed w-full flex bg-pertama justify-between mx-auto px-6 text-putih font-Kodchasan text-base z-50"
     >
       <div class="w-[188px] h-[62px]">
-        <a href="" class=""><img src="src/img/Logo TIB.png" alt="logo" /></a>
+        <a href="#" class=""><img src="src/img/Logo TIB.png" alt="logo" /></a>
       </div>
       <div class="my-auto">
         <a href="#" class="px-3 py-3 hover:bg-ketiga hover:rounded-lg">Home</a>
-        <a href="#" class="px-3 py-3 hover:bg-ketiga hover:rounded-lg"
+        <a href="#gallery" class="px-3 py-3 hover:bg-ketiga hover:rounded-lg"
           >Gallery</a
         >
-        <a href="#" class="px-3 py-3 hover:bg-ketiga hover:rounded-lg"
+        <a href="#member" class="px-3 py-3 hover:bg-ketiga hover:rounded-lg"
           >Member</a
         >
       </div>
     </nav>
+
+    <!-- tombol back to top -->
+    <div
+      class="w-10 h-10 bg-ketiga border-kedua rounded-full flex fixed bottom-5 right-5 z-50"
+    >
+      <a href="#" class="m-auto"
+        ><img src="src/img/arrow-up.png" alt="arrow" class="w-8"
+      /></a>
+    </div>
+
     <!-- home page -->
-    <div class="bg-kedua">
-      <div class="">
-        <a href="#"
-          ><img
-            src="src/img/Foto Background.png"
-            alt="foto bareng"
-            class="w-full"
-        /></a>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime iusto
-          nemo illo asperiores exercitationem libero incidunt laborum fugit
-          reprehenderit, fugiat quae autem deserunt, ex amet ad voluptate eaque?
-          Harum nihil perspiciatis nulla autem dolore ipsa repellendus iste at
-          quidem adipisci? Et nemo porro, libero quaerat placeat rerum maxime
-          corporis cumque.
+    <div class="bg-kedua relative">
+      <div class="w-full z-10">
+        <img
+          src="src/img/Foto-Background.png"
+          alt="foto-background"
+          class="w-full"
+        />
+      </div>
+      <div
+        class="absolute inset-0 grid items-center text-white font-Kodchasan font-light"
+      >
+        <p class="w-[46rem] text-justify mx-auto text-lg">
+          Perkenalkan kami TI-1B, kelas yang selalu seru dan penuh semangat di
+          mana, solidaritas kami tinggi sebagaimana slogan TIK PNJ! . Dalam
+          kelas ini, mahasiswa tidak hanya fokus pada penguasaan materi Teknik
+          Informatika, tetapi juga membangun hubungan yang erat melalui kerja
+          sama dan kolaborasi. Dengan semangat kebersamaan, TI-1B menciptakan
+          suasana belajar yang menyenangkan, di mana setiap tantangan dihadapi
+          bersama dan setiap pencapaian dirayakan sebagai hasil usaha kolektif.
         </p>
       </div>
     </div>
-    <!-- gallery page -->
-    <div class=""></div>
+
+    <!-- Gallery -->
+    <div
+      id="gallery"
+      class="w-full text-center font-Kodchasan text-4xl text-putih inline"
+    >
+      <h1>Our Gallery</h1>
+    </div>
+    <div
+      class="mx-auto p-10 mt-10 grid grid-cols-3 gap-4 text-putih font-Kodchasan"
+    >
+      <div
+        class="bg-ketiga col-span-1 p-6 grid items-center rounded-md hover:scale-105 transition"
+      >
+        <img
+          src="./src/img/foto almet depan tugu spirit.jpg"
+          alt="Image"
+          class="mb-4 rounded-md"
+        />
+        <h1 class="text-lg font-bold">Lorem ipsum</h1>
+        <p class="font-light">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+          possimus officia, itaque ea ducimus tempore? Distinctio iure vero
+          delectus laborum?
+        </p>
+      </div>
+      <div class="bg-ketiga col-span-1 p-6 grid items-center rounded-md">
+        <img
+          src="./src/img/foto almet depan tugu spirit.jpg"
+          alt="Image"
+          class="mb-4 rounded-md"
+        />
+        <h1 class="text-lg font-bold">Lorem ipsum</h1>
+        <p class="font-light">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+          possimus officia, itaque ea ducimus tempore? Distinctio iure vero
+          delectus laborum?
+        </p>
+      </div>
+      <div class="bg-ketiga col-span-1 p-6 grid items-center rounded-md">
+        <img
+          src="./src/img/foto almet depan tugu spirit.jpg"
+          alt="Image"
+          class="mb-4 rounded-md"
+        />
+        <h1 class="text-lg font-bold">Lorem ipsum</h1>
+        <p class="font-light">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+          possimus officia, itaque ea ducimus tempore? Distinctio iure vero
+          delectus laborum?
+        </p>
+      </div>
+      <div class="bg-ketiga col-span-1 p-6 grid items-center rounded-md">
+        <img
+          src="./src/img/foto almet depan tugu spirit.jpg"
+          alt="Image"
+          class="mb-4 rounded-md"
+        />
+        <h1 class="text-lg font-bold">Lorem ipsum</h1>
+        <p class="font-light">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+          possimus officia, itaque ea ducimus tempore? Distinctio iure vero
+          delectus laborum?
+        </p>
+      </div>
+      <div class="bg-ketiga col-span-1 p-6 grid items-center rounded-md">
+        <img
+          src="./src/img/foto almet depan tugu spirit.jpg"
+          alt="Image"
+          class="mb-4 rounded-md"
+        />
+        <h1 class="text-lg font-bold">Lorem ipsum</h1>
+        <p class="font-light">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+          possimus officia, itaque ea ducimus tempore? Distinctio iure vero
+          delectus laborum?
+        </p>
+      </div>
+      <div class="bg-ketiga col-span-1 p-6 grid items-center rounded-md">
+        <img
+          src="./src/img/foto almet depan tugu spirit.jpg"
+          alt="Image"
+          class="mb-4 rounded-md"
+        />
+        <h1 class="text-lg font-bold">Lorem ipsum</h1>
+        <p class="font-light">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+          possimus officia, itaque ea ducimus tempore? Distinctio iure vero
+          delectus laborum?
+        </p>
+      </div>
+    </div>
+
+    <!-- member -->
+    <div
+      id="member"
+      class="w-full text-center font-Kodchasan text-4xl text-putih"
+    >
+      <h1>Meet Our Members</h1>
+    </div>
+    <div class="w-full grid grid-cols-4 mt-10 ps-16">
+      <!-- row 1 -->
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+      <div
+        class="w-64 overflow-hidden mb-8 grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-out object-cover group"
+      >
+        <img src="src/img/potrait-pict.jpg" alt="" class="rounded-lg" />
+        <p
+          class="absolute bottom-2 left-2 font-Kodchasan text-putih px-2 py-1 opacity-0 group-hover:opacity-100 transition"
+        >
+          hello world
+        </p>
+      </div>
+    </div>
   </body>
 </html>
